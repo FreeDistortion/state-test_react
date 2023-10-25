@@ -3,11 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import StateTest from './StateTest';
+import ArrayState from './ArrayState';
+import CountTest from './exam/CountTest';
+import ObjectState from './ObjectState';
+import AddMovie from './exam/AddMovie';
+import EffectTest from './EffectTest';
+import UseEffectExam from './UseEffectExam';
+import ObjectState2 from './ObjectState2';
+import MovieMain from './MovieMain';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <MovieMain/>
   </React.StrictMode>
 );
 
